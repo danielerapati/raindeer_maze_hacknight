@@ -57,7 +57,7 @@ def main
         state = read_state(sock)
         last_move = move
     end
-    puts "Got present!"
+    puts "Got present! Oh yeah!"
     sock.close  
     main
 end
